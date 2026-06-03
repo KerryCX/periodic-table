@@ -1,0 +1,700 @@
+[
+  {
+    "number": 1,
+    "symbol": "H",
+    "name": "Hydrogen",
+    "symbolOrigin": "From the Greek \"hydro\" (water) and \"genes\" (creator), meaning water-former."
+  },
+  {
+    "number": 2,
+    "symbol": "He",
+    "name": "Helium",
+    "symbolOrigin": "From the Greek \"hēlios\" (sun), as it was first observed in the solar spectrum."
+  },
+  {
+    "number": 3,
+    "symbol": "Li",
+    "name": "Lithium",
+    "symbolOrigin": "From the Greek \"lithos\" (stone), as it was discovered in a mineral."
+  },
+  {
+    "number": 4,
+    "symbol": "Be",
+    "name": "Beryllium",
+    "symbolOrigin": "From \"beryl\", a mineral from which it was first isolated."
+  },
+  {
+    "number": 5,
+    "symbol": "B",
+    "name": "Boron",
+    "symbolOrigin": "From \"borax\", a mineral from which it was first isolated."
+  },
+  {
+    "number": 6,
+    "symbol": "C",
+    "name": "Carbon",
+    "symbolOrigin": "From the Latin \"carbo\" (coal), as it was known in ancient times."
+  },
+  {
+    "number": 7,
+    "symbol": "N",
+    "name": "Nitrogen",
+    "symbolOrigin": "From the Greek \"nitron\" (native soda) and \"genes\" (forming), meaning niter-forming."
+  },
+  {
+    "number": 8,
+    "symbol": "O",
+    "name": "Oxygen",
+    "symbolOrigin": "From the Greek \"oxys\" (acid) and \"genes\" (forming), meaning acid-forming."
+  },
+  {
+    "number": 9,
+    "symbol": "F",
+    "name": "Fluorine",
+    "symbolOrigin": "From the Latin \"fluere\" (to flow), as it was first observed in mineral flux."
+  },
+  {
+    "number": 10,
+    "symbol": "Ne",
+    "name": "Neon",
+    "symbolOrigin": "From the Greek \"neos\" (new), as it was a new element discovered in 1898."
+  },
+  {
+    "number": 11,
+    "symbol": "Na",
+    "name": "Sodium",
+    "symbolOrigin": "From the English \"soda\" and the Latin \"natron\" (sodium carbonate), referring to the mineral natron."
+  },
+  {
+    "number": 12,
+    "symbol": "Mg",
+    "name": "Magnesium",
+    "symbolOrigin": "From \"Magnesia\", a district in Thessaly, Greece, where the mineral magnesite was first found."
+  },
+  {
+    "number": 13,
+    "symbol": "Al",
+    "name": "Aluminium",
+    "symbolOrigin": "From the Latin \"alumen\" (bitter salt), referring to the mineral alum."
+  },
+  {
+    "number": 14,
+    "symbol": "Si",
+    "name": "Silicon",
+    "symbolOrigin": "From the Latin \"silex\" (flint), as it was first obtained from flint."
+  },
+  {
+    "number": 15,
+    "symbol": "P",
+    "name": "Phosphorus",
+    "symbolOrigin": "From the Greek \"phos\" (light) and \"phoros\" (bearing), meaning light-bearer."
+  },
+  {
+    "number": 16,
+    "symbol": "S",
+    "name": "Sulfur",
+    "symbolOrigin": "From the Latin \"sulphur\", meaning brimstone."
+  },
+  {
+    "number": 17,
+    "symbol": "Cl",
+    "name": "Chlorine",
+    "symbolOrigin": "From the Greek \"chloros\" (greenish-yellow), referring to its color."
+  },
+  {
+    "number": 18,
+    "symbol": "Ar",
+    "name": "Argon",
+    "symbolOrigin": "From the Greek \"argos\" (inactive), as it is chemically inert."
+  },
+  {
+    "number": 19,
+    "symbol": "K",
+    "name": "Potassium",
+    "symbolOrigin": "From the English \"potash\" and the Latin \"kalium\" (from Arabic \"al-qalyah\"), referring to plant ashes."
+  },
+  {
+    "number": 20,
+    "symbol": "Ca",
+    "name": "Calcium",
+    "symbolOrigin": "From the Latin \"calx\" (lime), as it was first isolated from lime."
+  },
+  {
+    "number": 21,
+    "symbol": "Sc",
+    "name": "Scandium",
+    "symbolOrigin": "From \"Scandia\", the Latin name for Scandinavia, where it was first discovered."
+  },
+  {
+    "number": 22,
+    "symbol": "Ti",
+    "name": "Titanium",
+    "symbolOrigin": "From the Titans of Greek mythology, symbolizing strength."
+  },
+  {
+    "number": 23,
+    "symbol": "V",
+    "name": "Vanadium",
+    "symbolOrigin": "From \"Vanadis\", another name for the Norse goddess Freyja, due to the element’s colorful compounds."
+  },
+  {
+    "number": 24,
+    "symbol": "Cr",
+    "name": "Chromium",
+    "symbolOrigin": "From the Greek \"chroma\" (color), due to the colorful compounds it forms."
+  },
+  {
+    "number": 25,
+    "symbol": "Mn",
+    "name": "Manganese",
+    "symbolOrigin": "From the Latin \"magnes\" (magnet), as it was first discovered in magnetic ores."
+  },
+  {
+    "number": 26,
+    "symbol": "Fe",
+    "name": "Iron",
+    "symbolOrigin": "From the Anglo-Saxon \"iren\", and the symbol \"Fe\" from the Latin \"ferrum\"."
+  },
+  {
+    "number": 27,
+    "symbol": "Co",
+    "name": "Cobalt",
+    "symbolOrigin": "From the German \"kobold\" (goblin), as miners believed it contained harmful substances."
+  },
+  {
+    "number": 28,
+    "symbol": "Ni",
+    "name": "Nickel",
+    "symbolOrigin": "From the German \"kupfernickel\" (false copper), as it resembled copper but was worthless."
+  },
+  {
+    "number": 29,
+    "symbol": "Cu",
+    "name": "Copper",
+    "symbolOrigin": "From the Latin \"cuprum\", from \"Cyprus\", where it was mined in ancient times."
+  },
+  {
+    "number": 30,
+    "symbol": "Zn",
+    "name": "Zinc",
+    "symbolOrigin": "From the German \"zinke\", meaning pointed, referring to its crystalline form."
+  },
+  {
+    "number": 31,
+    "symbol": "Ga",
+    "name": "Gallium",
+    "symbolOrigin": "From \"Gallia\", the Latin name for France, honoring the discoverer’s homeland."
+  },
+  {
+    "number": 32,
+    "symbol": "Ge",
+    "name": "Germanium",
+    "symbolOrigin": "From \"Germania\", the Latin name for Germany, honoring the discoverer’s homeland."
+  },
+  {
+    "number": 33,
+    "symbol": "As",
+    "name": "Arsenic",
+    "symbolOrigin": "From the Greek \"arsenikon\" (masculine), referring to its potency."
+  },
+  {
+    "number": 34,
+    "symbol": "Se",
+    "name": "Selenium",
+    "symbolOrigin": "From the Greek \"selene\" (moon), as it was found alongside tellurium (named after Earth)."
+  },
+  {
+    "number": 35,
+    "symbol": "Br",
+    "name": "Bromine",
+    "symbolOrigin": "From the Greek \"bromos\" (stench), due to its strong odor."
+  },
+  {
+    "number": 36,
+    "symbol": "Kr",
+    "name": "Krypton",
+    "symbolOrigin": "From the Greek \"kryptos\" (hidden), as it was found in trace amounts."
+  },
+  {
+    "number": 37,
+    "symbol": "Rb",
+    "name": "Rubidium",
+    "symbolOrigin": "From the Latin \"rubidus\" (deep red), due to the red emission lines in its spectrum."
+  },
+  {
+    "number": 38,
+    "symbol": "Sr",
+    "name": "Strontium",
+    "symbolOrigin": "From \"Strontian\", a town in Scotland where the mineral was first discovered."
+  },
+  {
+    "number": 39,
+    "symbol": "Y",
+    "name": "Yttrium",
+    "symbolOrigin": "From \"Ytterby\", a village in Sweden where the mineral was first found."
+  },
+  {
+    "number": 40,
+    "symbol": "Zr",
+    "name": "Zirconium",
+    "symbolOrigin": "From \"zirkon\", a mineral name, derived from Arabic \"zarqūn\" (cinnabar)."
+  },
+  {
+    "number": 41,
+    "symbol": "Nb",
+    "name": "Niobium",
+    "symbolOrigin": "From \"Niobe\", daughter of King Tantalus in Greek mythology, as it resembled tantalum."
+  },
+  {
+    "number": 42,
+    "symbol": "Mo",
+    "name": "Molybdenum",
+    "symbolOrigin": "From the Greek \"molybdos\" (lead), as it was often confused with lead ores."
+  },
+  {
+    "number": 43,
+    "symbol": "Tc",
+    "name": "Technetium",
+    "symbolOrigin": "From the Greek \"technetos\" (artificial), as it was the first element to be artificially produced."
+  },
+  {
+    "number": 44,
+    "symbol": "Ru",
+    "name": "Ruthenium",
+    "symbolOrigin": "From \"Ruthenia\", the Latin name for Russia, honoring the discoverer’s homeland."
+  },
+  {
+    "number": 45,
+    "symbol": "Rh",
+    "name": "Rhodium",
+    "symbolOrigin": "From the Greek \"rhodon\" (rose), due to the rose-red color of its compounds."
+  },
+  {
+    "number": 46,
+    "symbol": "Pd",
+    "name": "Palladium",
+    "symbolOrigin": "From \"Pallas\", an asteroid discovered around the same time as the element."
+  },
+  {
+    "number": 47,
+    "symbol": "Ag",
+    "name": "Silver",
+    "symbolOrigin": "From the Anglo-Saxon \"seolfor\" and the Latin \"argentum\", meaning bright."
+  },
+  {
+    "number": 48,
+    "symbol": "Cd",
+    "name": "Cadmium",
+    "symbolOrigin": "From the Greek \"kadmeia\", referring to the ancient name for the mineral calamine."
+  },
+  {
+    "number": 49,
+    "symbol": "In",
+    "name": "Indium",
+    "symbolOrigin": "From the indigo-blue line in its spectrum."
+  },
+  {
+    "number": 50,
+    "symbol": "Sn",
+    "name": "Tin",
+    "symbolOrigin": "From the Anglo-Saxon \"tin\", and the symbol \"Sn\" from the Latin \"stannum\"."
+  },
+  {
+    "number": 51,
+    "symbol": "Sb",
+    "name": "Antimony",
+    "symbolOrigin": "From the Greek \"antimonos\" (not alone), as it was rarely found pure in nature."
+  },
+  {
+    "number": 52,
+    "symbol": "Te",
+    "name": "Tellurium",
+    "symbolOrigin": "From the Latin \"tellus\" (earth), as it was found in ores of gold."
+  },
+  {
+    "number": 53,
+    "symbol": "I",
+    "name": "Iodine",
+    "symbolOrigin": "From the Greek \"iodes\", meaning violet, due to its violet vapor."
+  },
+  {
+    "number": 54,
+    "symbol": "Xe",
+    "name": "Xenon",
+    "symbolOrigin": "From the Greek \"xenos\", meaning strange or foreign."
+  },
+  {
+    "number": 55,
+    "symbol": "Cs",
+    "name": "Caesium",
+    "symbolOrigin": "From the Latin \"caesius\", meaning sky blue, referring to its bright blue spectral lines."
+  },
+  {
+    "number": 56,
+    "symbol": "Ba",
+    "name": "Barium",
+    "symbolOrigin": "From the Greek \"barys\", meaning heavy, due to the high density of its compounds."
+  },
+  {
+    "number": 57,
+    "symbol": "La",
+    "name": "Lanthanum",
+    "symbolOrigin": "From the Greek \"lanthanein\", meaning to lie hidden, reflecting its elusive nature."
+  },
+  {
+    "number": 58,
+    "symbol": "Ce",
+    "name": "Cerium",
+    "symbolOrigin": "Named after the asteroid Ceres, discovered in 1801."
+  },
+  {
+    "number": 59,
+    "symbol": "Pr",
+    "name": "Praseodymium",
+    "symbolOrigin": "From the Greek \"prasios didymos\", meaning green twin, due to its green-colored compounds."
+  },
+  {
+    "number": 60,
+    "symbol": "Nd",
+    "name": "Neodymium",
+    "symbolOrigin": "From the Greek \"neos didymos\", meaning new twin, as it was a new element separated from didymium."
+  },
+  {
+    "number": 61,
+    "symbol": "Pm",
+    "name": "Promethium",
+    "symbolOrigin": "Named after Prometheus, the Greek titan who stole fire from the gods."
+  },
+  {
+    "number": 62,
+    "symbol": "Sm",
+    "name": "Samarium",
+    "symbolOrigin": "Named after the mineral samarskite, which was named after the Russian mine official Vasili Samarsky-Bykhovets."
+  },
+  {
+    "number": 63,
+    "symbol": "Eu",
+    "name": "Europium",
+    "symbolOrigin": "Named after the continent Europe."
+  },
+  {
+    "number": 64,
+    "symbol": "Gd",
+    "name": "Gadolinium",
+    "symbolOrigin": "Named after the Finnish chemist Johan Gadolin."
+  },
+  {
+    "number": 65,
+    "symbol": "Tb",
+    "name": "Terbium",
+    "symbolOrigin": "Named after the Swedish village of Ytterby, where the mineral was first discovered."
+  },
+  {
+    "number": 66,
+    "symbol": "Dy",
+    "name": "Dysprosium",
+    "symbolOrigin": "From the Greek \"dysprositos\", meaning hard to get, due to its rarity."
+  },
+  {
+    "number": 67,
+    "symbol": "Ho",
+    "name": "Holmium",
+    "symbolOrigin": "Named after Stockholm, Sweden, the home city of the discoverers."
+  },
+  {
+    "number": 68,
+    "symbol": "Er",
+    "name": "Erbium",
+    "symbolOrigin": "Named after the Swedish village of Ytterby."
+  },
+  {
+    "number": 69,
+    "symbol": "Tm",
+    "name": "Thulium",
+    "symbolOrigin": "From the Greek \"Thule\", meaning the northernmost part of the known world."
+  },
+  {
+    "number": 70,
+    "symbol": "Yb",
+    "name": "Ytterbium",
+    "symbolOrigin": "Named after the Swedish village of Ytterby."
+  },
+  {
+    "number": 71,
+    "symbol": "Lu",
+    "name": "Lutetium",
+    "symbolOrigin": "From the Latin \"Lutetia\", the ancient name for Paris."
+  },
+  {
+    "number": 72,
+    "symbol": "Hf",
+    "name": "Hafnium",
+    "symbolOrigin": "From the Latin \"Hafnia\", meaning Copenhagen, where it was discovered."
+  },
+  {
+    "number": 73,
+    "symbol": "Ta",
+    "name": "Tantalum",
+    "symbolOrigin": "From the Greek myth of King Tantalus, who was condemned to stand in water that receded when he tried to drink."
+  },
+  {
+    "number": 74,
+    "symbol": "W",
+    "name": "Tungsten",
+    "symbolOrigin": "From the Swedish \"tung sten\", meaning heavy stone."
+  },
+  {
+    "number": 75,
+    "symbol": "Re",
+    "name": "Rhenium",
+    "symbolOrigin": "Named after the Rhine River in Europe."
+  },
+  {
+    "number": 76,
+    "symbol": "Os",
+    "name": "Osmium",
+    "symbolOrigin": "From the Greek \"osme\", meaning smell, due to its strong odor."
+  },
+  {
+    "number": 77,
+    "symbol": "Ir",
+    "name": "Iridium",
+    "symbolOrigin": "From the Latin \"iris\", meaning rainbow, due to the colorful compounds it forms."
+  },
+  {
+    "number": 78,
+    "symbol": "Pt",
+    "name": "Platinum",
+    "symbolOrigin": "From the Spanish \"platina\", meaning little silver."
+  },
+  {
+    "number": 79,
+    "symbol": "Au",
+    "name": "Gold",
+    "symbolOrigin": "From the Latin \"aurum\", meaning shining dawn."
+  },
+  {
+    "number": 80,
+    "symbol": "Hg",
+    "name": "Mercury",
+    "symbolOrigin": "From the Latin \"hydrargyrum\", meaning liquid silver."
+  },
+  {
+    "number": 81,
+    "symbol": "Tl",
+    "name": "Thallium",
+    "symbolOrigin": "From the Greek \"thallos\", meaning green shoot or twig, due to the green spectral line it emits."
+  },
+  {
+    "number": 82,
+    "symbol": "Pb",
+    "name": "Lead",
+    "symbolOrigin": "From the Anglo-Saxon \"leod\", meaning people, and the symbol \"Pb\" from the Latin \"plumbum\"."
+  },
+  {
+    "number": 83,
+    "symbol": "Bi",
+    "name": "Bismuth",
+    "symbolOrigin": "From the German \"Wismut\", meaning white mass."
+  },
+  {
+    "number": 84,
+    "symbol": "Po",
+    "name": "Polonium",
+    "symbolOrigin": "Named after Poland, the homeland of Marie Curie."
+  },
+  {
+    "number": 85,
+    "symbol": "At",
+    "name": "Astatine",
+    "symbolOrigin": "From the Greek \"astatos\", meaning unstable, due to its radioactivity."
+  },
+  {
+    "number": 86,
+    "symbol": "Rn",
+    "name": "Radon",
+    "symbolOrigin": "From the Latin \"radius\", meaning ray, due to its radioactivity."
+  },
+  {
+    "number": 87,
+    "symbol": "Fr",
+    "name": "Francium",
+    "symbolOrigin": "Named after France, where it was discovered."
+  },
+  {
+    "number": 88,
+    "symbol": "Ra",
+    "name": "Radium",
+    "symbolOrigin": "From the Latin \"radius\", meaning ray, due to its intense radioactivity."
+  },
+  {
+    "number": 89,
+    "symbol": "Ac",
+    "name": "Actinium",
+    "symbolOrigin": "From the Greek \"aktinos\", meaning ray, due to its radioactivity."
+  },
+  {
+    "number": 90,
+    "symbol": "Th",
+    "name": "Thorium",
+    "symbolOrigin": "Named after Thor, the Norse god of thunder."
+  },
+  {
+    "number": 91,
+    "symbol": "Pa",
+    "name": "Protactinium",
+    "symbolOrigin": "From the Greek \"protos\", meaning first, and \"actinium\", due to its relation to actinium."
+  },
+  {
+    "number": 92,
+    "symbol": "U",
+    "name": "Uranium",
+    "symbolOrigin": "Named after the planet Uranus."
+  },
+  {
+    "number": 93,
+    "symbol": "Np",
+    "name": "Neptunium",
+    "symbolOrigin": "Named after the planet Neptune."
+  },
+  {
+    "number": 94,
+    "symbol": "Pu",
+    "name": "Plutonium",
+    "symbolOrigin": "Named after the dwarf planet Pluto."
+  },
+  {
+    "number": 95,
+    "symbol": "Am",
+    "name": "Americium",
+    "symbolOrigin": "Named after the Americas."
+  },
+  {
+    "number": 96,
+    "symbol": "Cm",
+    "name": "Curium",
+    "symbolOrigin": "Named after Marie and Pierre Curie."
+  },
+  {
+    "number": 97,
+    "symbol": "Bk",
+    "name": "Berkelium",
+    "symbolOrigin": "Named after the city of Berkeley, California."
+  },
+  {
+    "number": 98,
+    "symbol": "Cf",
+    "name": "Californium",
+    "symbolOrigin": "Named after the state of California."
+  },
+  {
+    "number": 99,
+    "symbol": "Es",
+    "name": "Einsteinium",
+    "symbolOrigin": "Named after Albert Einstein."
+  },
+  { "number": 100, "symbol": "Fm", "name": "Fermium", "symbolOrigin": "Named after Enrico Fermi." },
+  {
+    "number": 101,
+    "symbol": "Md",
+    "name": "Mendelevium",
+    "symbolOrigin": "Named after Dmitri Mendeleev."
+  },
+  {
+    "number": 102,
+    "symbol": "No",
+    "name": "Nobelium",
+    "symbolOrigin": "Named after Alfred Nobel."
+  },
+  {
+    "number": 103,
+    "symbol": "Lr",
+    "name": "Lawrencium",
+    "symbolOrigin": "Named after Ernest O. Lawrence."
+  },
+  {
+    "number": 104,
+    "symbol": "Rf",
+    "name": "Rutherfordium",
+    "symbolOrigin": "Named after Ernest Rutherford."
+  },
+  {
+    "number": 105,
+    "symbol": "Db",
+    "name": "Dubnium",
+    "symbolOrigin": "Named after the city of Dubna, Russia."
+  },
+  {
+    "number": 106,
+    "symbol": "Sg",
+    "name": "Seaborgium",
+    "symbolOrigin": "Named after Glenn T. Seaborg."
+  },
+  { "number": 107, "symbol": "Bh", "name": "Bohrium", "symbolOrigin": "Named after Niels Bohr." },
+  {
+    "number": 108,
+    "symbol": "Hs",
+    "name": "Hassium",
+    "symbolOrigin": "Named after the German state of Hesse."
+  },
+  {
+    "number": 109,
+    "symbol": "Mt",
+    "name": "Meitnerium",
+    "symbolOrigin": "Named after Lise Meitner."
+  },
+  {
+    "number": 110,
+    "symbol": "Ds",
+    "name": "Darmstadtium",
+    "symbolOrigin": "Named after the city of Darmstadt, Germany."
+  },
+  {
+    "number": 111,
+    "symbol": "Rg",
+    "name": "Roentgenium",
+    "symbolOrigin": "Named after Wilhelm Röntgen."
+  },
+  {
+    "number": 112,
+    "symbol": "Cn",
+    "name": "Copernicium",
+    "symbolOrigin": "Named after Nicolaus Copernicus."
+  },
+  {
+    "number": 113,
+    "symbol": "Nh",
+    "name": "Nihonium",
+    "symbolOrigin": "Named after Japan (Nihon)."
+  },
+  {
+    "number": 114,
+    "symbol": "Fl",
+    "name": "Flerovium",
+    "symbolOrigin": "Named after Georgy Flerov."
+  },
+  {
+    "number": 115,
+    "symbol": "Mc",
+    "name": "Moscovium",
+    "symbolOrigin": "Named after Moscow, Russia, near where the element was discovered."
+  },
+  {
+    "number": 116,
+    "symbol": "Lv",
+    "name": "Livermorium",
+    "symbolOrigin": "Named after the Lawrence Livermore National Laboratory in California, USA."
+  },
+  {
+    "number": 117,
+    "symbol": "Ts",
+    "name": "Tennessine",
+    "symbolOrigin": "Named after the U.S. state of Tennessee, home to Oak Ridge National Laboratory."
+  },
+  {
+    "number": 118,
+    "symbol": "Og",
+    "name": "Oganesson",
+    "symbolOrigin": "Named in honor of Russian physicist Yuri Oganessian."
+  }
+]
