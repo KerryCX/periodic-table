@@ -212,6 +212,10 @@ body {
   gap: 10px;
 }
 
+.options-group + .btn-primary {
+  margin-top: 16px;
+}
+
 .btn-option {
   background-color: transparent;
   color: #1a2b2b;
