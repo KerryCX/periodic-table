@@ -203,3 +203,78 @@ body {
   background-color: #c0392b;
   color: #ffffff;
 }
+
+/* ─── Quiz screen ──────────────────────────────────── */
+
+.options-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn-option {
+  background-color: transparent;
+  color: #1a2b2b;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  border: 1.5px solid #c8d8d8;
+  border-radius: 12px;
+  padding: 14px 16px;
+  cursor: pointer;
+  width: 100%;
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.btn-option--correct {
+  background-color: #22c55e;
+  color: #ffffff;
+  border-color: #22c55e;
+}
+
+.btn-option--incorrect {
+  background-color: #b91c1c;
+  color: #ffffff;
+  border-color: #b91c1c;
+}
+
+/* ─── End screen ───────────────────────────────────── */
+
+.text-trophy {
+  font-size: 40px;
+  text-align: center;
+}
+
+.text-score {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: #147063;
+  text-align: center;
+}
+
+.text-encouragement {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #1a2b2b;
+  text-align: center;
+}
+
+.divider {
+  border: none;
+  border-top: 1.5px solid #c8d8d8;
+  margin: 4px 0;
+}
+
+.text-product-link {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #147063;
+  text-align: center;
+  text-decoration: underline;
+}
