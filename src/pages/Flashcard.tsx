@@ -11,6 +11,7 @@ function Flashcard({ onBack }: Props) {
   const [current, setCurrent] = useState<number>(0);
   const [revealed, setRevealed] = useState<boolean>(false);
   const [showOrigin, setShowOrigin] = useState<boolean>(false);
+  const [rating, setRating] = useState<string | null>(null);
 
   useEffect(() => {
     getData().then(setElements);
@@ -24,6 +25,7 @@ function Flashcard({ onBack }: Props) {
     setCurrent((prev) => prev + 1);
     setRevealed(false);
     setShowOrigin(false);
+    setRating(null);
   };
 
   return (
@@ -40,16 +42,29 @@ function Flashcard({ onBack }: Props) {
         </p>
         <p className='text-symbol'>{element.symbol}</p>
 
-        {revealed && <p className='text-element-name'>{element.name}</p>}
-
-        {!revealed && (
-          <button className='btn-primary' onClick={() => setRevealed(true)}>
-            Reveal Name
-          </button>
-        )}
-
         {revealed && (
           <>
+            <p className='text-element-name'>{element.name}</p>
+            <div className='rating-group'>
+              <button
+                className={`btn-rating btn-rating--got-it ${rating === "got-it" ? "btn-rating--selected" : ""}`}
+                onClick={() => setRating("got-it")}
+              >
+                Got It
+              </button>
+              <button
+                className={`btn-rating btn-rating--nearly ${rating === "nearly" ? "btn-rating--selected" : ""}`}
+                onClick={() => setRating("nearly")}
+              >
+                Nearly
+              </button>
+              <button
+                className={`btn-rating btn-rating--no-idea ${rating === "no-idea" ? "btn-rating--selected" : ""}`}
+                onClick={() => setRating("no-idea")}
+              >
+                No idea
+              </button>
+            </div>
             {!showOrigin && (
               <button
                 className='btn-secondary'
@@ -65,6 +80,12 @@ function Flashcard({ onBack }: Props) {
               Next →
             </button>
           </>
+        )}
+
+        {!revealed && (
+          <button className='btn-primary' onClick={() => setRevealed(true)}>
+            Reveal Name
+          </button>
         )}
       </div>
     </div>
