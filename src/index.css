@@ -157,3 +157,49 @@ body {
   font-style: italic;
   line-height: 1.5;
 }
+
+.rating-group {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-rating {
+  flex: 1;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  border-radius: 12px;
+  padding: 12px 8px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.btn-rating--got-it {
+  border: 2px solid #3dbe7a;
+  color: #3dbe7a;
+}
+
+.btn-rating--nearly {
+  border: 2px solid #f5a623;
+  color: #f5a623;
+}
+
+.btn-rating--no-idea {
+  border: 2px solid #c0392b;
+  color: #c0392b;
+}
+
+.btn-rating--got-it.btn-rating--selected {
+  background-color: #3dbe7a;
+  color: #ffffff;
+}
+
+.btn-rating--nearly.btn-rating--selected {
+  background-color: #f5a623;
+  color: #ffffff;
+}
+
+.btn-rating--no-idea.btn-rating--selected {
+  background-color: #c0392b;
+  color: #ffffff;
+}
