@@ -1,5 +1,6 @@
 import { useState } from "react";
 import ModeSelect from "./pages/ModeSelect";
+import Flashcard from "./pages/Flashcard";
 
 type Mode = "select" | "flashcard" | "quiz";
 
@@ -9,7 +10,7 @@ function App() {
   return (
     <div>
       {mode === "select" && <ModeSelect onSelectMode={(m) => setMode(m)} />}
-      {mode === "flashcard" && <div>Flashcard mode coming soon</div>}
+      {mode === "flashcard" && <Flashcard onBack={() => setMode("select")} />}
       {mode === "quiz" && <div>Quiz mode coming soon</div>}
     </div>
   );

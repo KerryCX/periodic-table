@@ -66,3 +66,94 @@ body {
   cursor: pointer;
   width: 100%;
 }
+
+/* Secondary button — outlined teal */
+.btn-secondary {
+  background-color: transparent;
+  color: #147063;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  border: 2px solid #147063;
+  border-radius: 12px;
+  padding: 14px 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn-secondary:hover {
+  background-color: #147063;
+  color: #ffffff;
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease;
+}
+
+/* Back nav row */
+.back-nav {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  color: #147063;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  align-self: flex-start;
+}
+
+.back-nav:hover {
+  opacity: 0.75;
+}
+
+/* Progress text — "3 / 20" */
+.text-progress {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  color: #5a7a7a;
+  text-align: center;
+}
+
+/* Card header — atomic number + category pill row */
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e0ecec;
+}
+
+/* Element symbol — Space Grotesk 72 Bold */
+.text-symbol {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  color: #1a2b2b;
+  text-align: center;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+/* Element name — Outfit 28 Bold */
+.text-element-name {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #1a2b2b;
+  text-align: center;
+}
+
+/* Symbol origin text — Inter 15 Regular */
+.text-origin {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #5a7a7a;
+  text-align: center;
+  font-style: italic;
+  line-height: 1.5;
+}
