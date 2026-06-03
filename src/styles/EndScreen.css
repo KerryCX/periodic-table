@@ -1,0 +1,27 @@
+.text-trophy {
+  font-size: 40px;
+  text-align: center;
+}
+
+.text-encouragement {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #1a2b2b;
+  text-align: center;
+}
+
+.divider {
+  border: none;
+  border-top: 1.5px solid #c8d8d8;
+  margin: 4px 0;
+}
+
+.text-product-link {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #147063;
+  text-align: center;
+  text-decoration: underline;
+}

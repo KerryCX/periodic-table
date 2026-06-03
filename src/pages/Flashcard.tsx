@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { getData } from "../utils";
 import type { Element } from "../types";
+import "../styles/Flashcard.css";
 
 interface Props {
   onBack: () => void;
