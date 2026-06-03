@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { getData, getRandomElements, getOtherElementOptions } from "../utils";
 import type { Element } from "../types";
+import "../styles/Quiz.css";
+import EndScreen from "./EndScreen";
 
 interface Props {
   onBack: () => void;
@@ -62,33 +64,12 @@ function Quiz({ onBack }: Props) {
 
   if (finished) {
     return (
-      <div className='screen'>
-        <div className='card'>
-          <h1 className='heading'>Periodic Table</h1>
-          <p className='text-trophy'>🏆</p>
-          <p className='text-score'>
-            You scored {score} out of {questions.length}
-          </p>
-          <p className='text-encouragement'>Great work!</p>
-          <hr className='divider' />
-          <div className='button-group'>
-            <button className='btn-primary' onClick={handlePlayAgain}>
-              Play Again
-            </button>
-            <button className='btn-secondary' onClick={onBack}>
-              Switch Mode
-            </button>
-          </div>
-          <a
-            className='text-product-link'
-            href='https://your-etsy-link.com'
-            target='_blank'
-            rel='noreferrer'
-          >
-            Love chemistry? Check out our periodic table posters →
-          </a>
-        </div>
-      </div>
+      <EndScreen
+        score={score}
+        total={questions.length}
+        onPlayAgain={handlePlayAgain}
+        onBack={onBack}
+      />
     );
   }
 

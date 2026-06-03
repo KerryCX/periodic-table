@@ -1,0 +1,38 @@
+.options-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.options-group + .btn-primary {
+  margin-top: 16px;
+}
+
+.btn-option {
+  background-color: transparent;
+  color: #1a2b2b;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  border: 1.5px solid #c8d8d8;
+  border-radius: 12px;
+  padding: 14px 16px;
+  cursor: pointer;
+  width: 100%;
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.btn-option--correct {
+  background-color: #22c55e;
+  color: #ffffff;
+  border-color: #22c55e;
+}
+
+.btn-option--incorrect {
+  background-color: #b91c1c;
+  color: #ffffff;
+  border-color: #b91c1c;
+}
