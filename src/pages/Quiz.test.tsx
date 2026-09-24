@@ -95,8 +95,8 @@ describe("Quiz", () => {
 
   it("highlights incorrect and correct answers when wrong answer selected", async () => {
     render(<Quiz onBack={vi.fn()} />);
-    await screen.findByText("H");
-    await userEvent.click(screen.getByRole("button", { name: "Helium" }));
+    const heliumButton = await screen.findByRole("button", { name: "Helium" });
+    await userEvent.click(heliumButton);
     expect(screen.getByRole("button", { name: "Helium" })).toHaveClass(
       "btn-option--incorrect",
     );
