@@ -115,8 +115,8 @@ describe("Quiz", () => {
 
   it("does not increment score on incorrect answer", async () => {
     render(<Quiz onBack={vi.fn()} />);
-    await screen.findByText("H");
-    await userEvent.click(screen.getByRole("button", { name: "Helium" }));
+    const heliumButton = await screen.findByRole("button", { name: "Helium" });
+    await userEvent.click(heliumButton);
     expect(screen.getByText("Score: 0")).toBeInTheDocument();
   });
 
