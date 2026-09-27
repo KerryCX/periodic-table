@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 import { getData, getRandomElements, getOtherElementOptions } from "../utils";
 import type { Element } from "../types";
 import "../styles/Quiz.css";
@@ -15,7 +15,6 @@ function Quiz({ onBack }: Props) {
   const [selected, setSelected] = useState<string | null>(null);
   const [score, setScore] = useState<number>(0);
   const [finished, setFinished] = useState<boolean>(false);
-  const [options, setOptions] = useState<Element[]>([]);
 
   useEffect(() => {
     getData().then((data) => {
@@ -24,10 +23,10 @@ function Quiz({ onBack }: Props) {
     });
   }, []);
 
-  useEffect(() => {
-    if (questions.length === 0) return;
-    setOptions(getOtherElementOptions(questions[current], elements));
-  }, [current, questions]);
+  const options = useMemo(() => {
+    if (questions.length === 0) return [];
+    return getOtherElementOptions(questions[current], elements);
+  }, [current, questions, elements]);
 
   if (!questions[current] && !finished) return <div>Loading...</div>;
 
