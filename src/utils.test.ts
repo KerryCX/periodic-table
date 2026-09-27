@@ -7,7 +7,7 @@ describe("getData", () => {
     global.fetch = vi.fn().mockResolvedValue({
       ok: true,
       json: async () => mockElements,
-    } as any);
+    } as unknown as Response);
 
     const result = await getData();
     expect(result).toEqual(mockElements);
@@ -16,7 +16,7 @@ describe("getData", () => {
   it("throws an error if response is not ok", async () => {
     global.fetch = vi.fn().mockResolvedValue({
       ok: false,
-    } as any);
+    } as unknown as Response);
 
     await expect(getData()).rejects.toThrow("Failed to load JSON");
   });
