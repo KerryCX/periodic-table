@@ -8,7 +8,7 @@ Built as a portfolio project to demonstrate UX process alongside front-end devel
 
 ## Status
 
-Live at [periodic-table.kerryclements.com](https://periodic-table.kerryclements.com)
+Live at [periodictable.kerryclements.com](https://periodictable.kerryclements.com)
 
 ## Tech stack
 
