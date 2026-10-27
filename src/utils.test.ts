@@ -1,5 +1,10 @@
 import { describe, it, expect, beforeAll, vi } from "vitest";
-import { getData, getRandomElements, getOtherElementOptions } from "./utils";
+import {
+  getData,
+  getRandomElements,
+  getOtherElementOptions,
+  shuffleElements,
+} from "./utils";
 import type { Element } from "./types";
 
 describe("getData", () => {
@@ -28,6 +33,27 @@ const mockElements: Element[] = Array.from({ length: 20 }, (_, i) => ({
   number: i + 1,
   symbolOrigin: `Origin ${i}`,
 }));
+
+describe("shuffleElements", () => {
+  it("returns every element exactly once", () => {
+    const result = shuffleElements(mockElements);
+    expect(result).toHaveLength(mockElements.length);
+    expect(new Set(result.map((e) => e.symbol)).size).toBe(mockElements.length);
+  });
+
+  it("does not modify the original array", () => {
+    const copy = [...mockElements];
+    shuffleElements(mockElements);
+    expect(mockElements).toEqual(copy);
+  });
+
+  it("changes the order", () => {
+    const result = shuffleElements(mockElements);
+    expect(result.map((e) => e.symbol)).not.toEqual(
+      mockElements.map((e) => e.symbol),
+    );
+  });
+});
 
 describe("getRandomElements", () => {
   it("returns the correct number of elements", () => {
