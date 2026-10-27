@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getData } from "../utils";
+import { getData, shuffleElements } from "../utils";
 import type { Element } from "../types";
 import "../styles/Flashcard.css";
 
@@ -15,7 +15,7 @@ function Flashcard({ onBack }: Props) {
   const [rating, setRating] = useState<string | null>(null);
 
   useEffect(() => {
-    getData().then(setElements);
+    getData().then((data) => setElements(shuffleElements(data)));
   }, []);
 
   const element = elements[current];

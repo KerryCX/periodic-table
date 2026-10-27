@@ -6,6 +6,7 @@ import * as utils from "../utils";
 
 vi.mock("../utils", () => ({
   getData: vi.fn(),
+  shuffleElements: vi.fn((elements) => elements),
 }));
 
 const mockElements = [
